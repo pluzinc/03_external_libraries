@@ -17,7 +17,7 @@ camera.position.z = 5;
 
 const loader = new GLTFLoader();
 
-loader.load('path/to/model.glb', function (gltf) {
+loader.load('art_angel.glb', function (gltf) {
 
     scene.add(gltf.scene);
 
