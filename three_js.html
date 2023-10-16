@@ -8,6 +8,41 @@
     body {
       margin: 0;
     }
+
+    .color {
+  background-color: rgb(251, 251, 251);
+  background: linear-gradient(rgb(67, 148, 255), #e6af08 100%);
+  position: absolute;
+  left: 60%;
+  top: 50%;
+  filter: blur(100px);
+  overflow-x: hidden;
+  animation: rotate 7s linear infinite;
+  height: 350px;
+  width: 350px;
+}
+
+.colorr {
+  background-color: rgb(251, 251, 251);
+  background: linear-gradient(rgb(197, 90, 211), #e6af08 100%);
+  position: absolute;
+  left: 20%;
+  top: 10%;
+  filter: blur(100px);
+  overflow-x: hidden;
+  animation: rotate 7s linear infinite;
+  height: 350px;
+  width: 350px;
+}
+
+ @keyframes rotate {
+  0% {
+    transform: rotate(50deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+} 
   </style>
   <script type="importmap">
             {
@@ -21,6 +56,8 @@
 
 <body>
   <script type="module" src="main.js"></script>
+  <div class="color"></div>
+  <div class="colorr"></div>
 </body>
 
 </html>
