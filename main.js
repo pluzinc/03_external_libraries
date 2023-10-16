@@ -20,7 +20,7 @@ let mouseY = window.innerHeight / 2;
 const geometry = new THREE.BoxGeometry(1, 1, 1);
 const material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
 const cube = new THREE.Mesh(geometry, material);
-scene.add(cube);
+//scene.add(cube);
 // add the light
 const light = new THREE.AmbientLight(0x404040, 30); // soft white light
 // light.castShadow = true;
