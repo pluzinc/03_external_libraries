@@ -2,6 +2,7 @@
  assignment 3
 
 From Jexi:
+
 To see this website, you need to first follow the installation guide on three.js website.
 
 [Here's the link to the installation guide](https://threejs.org/docs/#manual/en/introduction/Installation)
@@ -12,9 +13,9 @@ After this step, you should be able to access the website I've created.
 
 To create this simple website, I followed the guide for [Creating a scene](https://threejs.org/docs/#manual/en/introduction/Creating-a-scene)
 
-I get the rotatin cube to work but hide it in my later development, if you want to see that, simply  take "//" out of this line of code: 
+I get the rotating cube to work but hide it in my later development, if you want to see that, simply  take "//" out of this line of code: 
 
-//scene.add(cube);
+    //scene.add(cube);
 
 And you should be able to see the rotating cube. 
 
